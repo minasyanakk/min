@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
 
-	"name": "Knowcity Tutorials", // Название расширения
-	"version": "1.0", // Номер версии
-	"description": "The latest tutorial from Knowcity channel", // Описание расширения
+	"name": "news",  
+	"version": "1.0",  
+	"description": "news art n", // Описание расширения
 
 	"permissions": [ 
 			"https://*/*", 
@@ -11,7 +11,7 @@
 					],
 
 	"browser_action": {
-		"default_title": "Knowcity", // Название кнопки
+		"default_title": "news", // Название кнопки
 		"default_icon": "images/icon.png", // Иконка для кнопки
 		"default_popup": "popup.html" // Всплывающее окно
 	},
